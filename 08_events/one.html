@@ -34,9 +34,9 @@
     //jQuery- on
 
     //type, timestamp, defaultPrevented
-    //target, toElement, srcElement, currentTarget, 
+    //target, relatedTarget, srcElement(= event.target), currentTarget, 
     //clientX, clientY, screenX, screenY
-    //altkey, ctrlkey, shiftkey,keyCode
+    //altkey, ctrlkey, shiftkey,keyCode(instead use event.key or event.code)
 
     //event propogation
     //eventbubbling(bubble neeche s upar jata hai), eventCapturing(top se bottom m hota hai)
@@ -74,3 +74,6 @@
 </script>
 
 </html>
+
+1. default javascript behaviour is that it is synchronous and single threaded 2. execustion context- executes one line of code at a time(each operation waits for the last one to complete) 3. Blocking code- blocks the flow of the program(read file sync)
+4. Non blocking code-doesnot block execution(read file async)
