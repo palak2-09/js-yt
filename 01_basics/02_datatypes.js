@@ -2,7 +2,7 @@
 
 //alert("hello")  // we are using nodejs, not browser
 
-console.log(3+3)
+console.log(3 + 3)
 console.log("Palak")
 
 let name = "hitesh"
@@ -18,7 +18,6 @@ let isLoggedIn = true
 //undefined => no value defined
 //symbol => unique
 
-//object
 
 console.log(typeof null) //it is an object
 console.log(typeof undefined) //undefined as it is a type
